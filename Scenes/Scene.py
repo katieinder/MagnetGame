@@ -14,9 +14,6 @@ class Scene:
     def getGame(self):
         return self.__game
 
-    def handleEvents(self, events):
-        pass
-
     def clearText(self):
         self.__texts = []
 
